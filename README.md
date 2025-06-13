@@ -59,12 +59,24 @@ VITE_BASE_URL="http://localhost:3000/api"
 
 ---
 
-## Technologies Used
+## Overview of Packages and Third-Party Libraries
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Ant Design (antd)](https://ant.design/) for UI components and styling
-- [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/) for testing
+| Package                        | Purpose & Reasoning                                                                                  |
+|---------------------------------|------------------------------------------------------------------------------------------------------|
+| **react** / **react-dom**       | Core library for building user interfaces.                                                           |
+| **vite**                        | Fast, modern build tool and dev server for React, enabling instant reloads and fast builds.          |
+| **react-router-dom**            | Declarative routing for React apps, allowing navigation between pages.                              |
+| **antd**                        | Ant Design UI library provides a rich set of high-quality, customizable components for rapid UI development and a consistent, modern look. |
+| **@testing-library/react**      | Encourages testing components from the user's perspective, making tests more reliable and maintainable. |
+| **@testing-library/jest-dom**   | Provides custom DOM matchers for more expressive assertions in tests.                               |
+| **vitest**                      | Fast, Vite-native test runner with Jest-compatible API, for seamless integration and fast feedback.  |
+| **axios** (if used)             | Promise-based HTTP client for making API requests (optional, check `package.json`).                 |
+
+**Why these choices?**
+- **Ant Design** was chosen for its comprehensive set of ready-to-use, well-documented components, which speeds up development and ensures a professional UI.
+- **Vite** and **Vitest** offer a modern, fast development and testing experience, with minimal configuration.
+- **React Router** is the standard for routing in React applications.
+- **Testing Library** tools promote best practices by focusing on user interactions and accessibility.
 
 ---
 
